@@ -556,22 +556,23 @@ DataTableColumnHeaderUI.extendMenu(function(column, columnHeaderUI, menu) {
         label: $.i18n('core-views/join-col')+"...",
           click : doJoinColumns
         },
+
       {},
       {
         id: "core/add-column",
         label: $.i18n('core-views/add-based-col')+"...",
         click: doAddColumn
-      },
+      }, 
       {
         id: "core/add-column-by-fetching-urls",
         label: $.i18n('core-views/add-by-urls')+"...",
         click: doAddColumnByFetchingURLs
-      },
+      }, /*
       {
         id: "core/add-column-by-reconciliation",
         label: $.i18n('core-views/add-col-recon-val')+"...",
         click: doAddColumnByReconciliation
-      },
+      }, */
       {},
       {
         id: "core/rename-column",
